@@ -1,0 +1,17 @@
+name: DuelPlugin
+version: 1.0.0
+main: com.duel.plugin.DuelPlugin
+api-version: '1.21'
+description: A PvP duel system plugin
+authors: [DuelPlugin]
+
+commands:
+  duel:
+    description: Challenge another player to a duel
+    usage: /duel <player>
+    permission: duel.use
+
+permissions:
+  duel.use:
+    description: Allows a player to use the duel command
+    default: true
